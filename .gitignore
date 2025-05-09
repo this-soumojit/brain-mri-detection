@@ -35,8 +35,8 @@ model/*.h5
 
 
 # Ignore training and testing image data folders
-/training/
-/testing/
+# /training/
+# /testing/
 
 # # Ignore large model checkpoints
 # /training_checkpoints/
