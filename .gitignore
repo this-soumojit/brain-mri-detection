@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+***/_pycache_/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.env
+*.venv
+*.egg-info/
+
+# Flask stuff
+instance/
+*.db
+*.sqlite3
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+.env
+
+client/node_modules/
+server/node_modules/
+model/*.h5
+
+
+# Ignore training and testing image data folders
+/training/
+/testing/
+
+# # Ignore large model checkpoints
+# /training_checkpoints/
