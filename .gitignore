@@ -34,6 +34,40 @@ server/node_modules/
 model/*.h5
 
 
+# Python virtual environment
+flask_api/myenv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Flask stuff
+instance/
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# React / Node stuff
+node_modules/
+build/
+dist/
+
+# Misc
+.DS_Store
+.env
+*.env
+
+# VSCode
+.vscode/
+
+
+
 # Ignore training and testing image data folders
 # /training/
 # /testing/
